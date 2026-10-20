@@ -30,29 +30,28 @@ export const Counter = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Tu mensaje Hola mundo */}
       <Text style={styles.titulo}>¡Hola mundo!</Text>
       
-      {/* Componente del contador */}
+      
       <Counter />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1e1e2e',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+ container: {
+  flex: 1,
+  backgroundColor: '#6b21a8', // Este es el color morado
+  alignItems: 'center',
+  justifyContent: 'center',
+},
   titulo: {
     fontSize: 32,
     color: '#4682b4',
     fontWeight: 'bold',
     fontStyle: 'italic',
     letterSpacing: 2,
-    marginBottom: 20, // Espacio entre el Hola mundo y el contador
+    marginBottom: 20, 
   },
   counterContainer: {
     alignItems: 'center',
@@ -84,3 +83,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 });
+
