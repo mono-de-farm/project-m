@@ -30,7 +30,7 @@ export const Counter = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>¡Hola mundo!</Text>
+      <Text style={styles.titulo}>¡Hoy hubo commit!</Text>
       
       
       <Counter />
