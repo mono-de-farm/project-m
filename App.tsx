@@ -30,9 +30,8 @@ export const Counter = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>¡Hoy hubo commit!</Text>
-      
-      
+      <Text style={styles.titulo}>¡Hoy hubo commit amo y señor!</Text>
+      <Text style={styles.subtitulo}>¡Hola mundo!</Text>
       <Counter />
     </View>
   );
@@ -41,7 +40,7 @@ export default function App() {
 const styles = StyleSheet.create({
  container: {
   flex: 1,
-  backgroundColor: '#6b21a8', // Este es el color morado
+  backgroundColor: '#1e293b', 
   alignItems: 'center',
   justifyContent: 'center',
 },
@@ -52,6 +51,12 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     letterSpacing: 2,
     marginBottom: 20, 
+  },
+  subtitulo: {
+    fontSize: 24,
+    color: '#ffffff',
+    fontWeight: 'bold',
+    marginBottom: 16,
   },
   counterContainer: {
     alignItems: 'center',
