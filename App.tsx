@@ -31,7 +31,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>¡Hoy hubo commit amo y señor!</Text>
-      <Text style={styles.subtitulo}>¡Hola mundo!</Text>
+      <Text style={styles.subtitulo}>Hpt cojo</Text>
       <Counter />
     </View>
   );
