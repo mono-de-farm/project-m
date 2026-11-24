@@ -30,12 +30,13 @@ export const Counter = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>¡Hoy hubo commit amo y señor!</Text>
-      <Text style={styles.subtitulo}>Hpt cojo</Text>
+      <Clock />
+      <Text style={styles.texto}>¡Hola mundo!</Text>
       <Counter />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
  container: {
@@ -86,6 +87,12 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     fontWeight: 'bold',
     fontSize: 18,
+  },
+  clockText: {
+    fontSize: 28,
+    color: '#e9d5ff',
+    fontWeight: 'bold',
+    marginBottom: 15,
   },
 });
 
