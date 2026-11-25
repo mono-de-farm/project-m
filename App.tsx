@@ -30,8 +30,7 @@ export const Counter = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Clock />
-      <Text style={styles.texto}>¡Hola mundo!</Text>
+    <Text style={styles.titulo}>¡Hola mundo!</Text>
       <Counter />
     </View>
   );
